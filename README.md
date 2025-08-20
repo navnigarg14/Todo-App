@@ -58,4 +58,5 @@ Todo-App/
 ## 👨‍💻 Author
 
 **Navni Garg**
+
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/navnigarg14/)
