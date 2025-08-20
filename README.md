@@ -34,7 +34,7 @@ Todo-App/
 1. Clone this repository:
    ```bash
    git clone https://github.com/navnigarg14/Todo-App.git
-````
+   ````
 
 2. Open the project folder:
 
@@ -59,5 +59,3 @@ Todo-App/
 
 **Navni Garg**
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/navnigarg14/)
-
----
