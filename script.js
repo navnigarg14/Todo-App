@@ -49,12 +49,12 @@ function saveTodos() {
 
 function updateItemsCount() {
     const uncompletedTodos = todos.filter((todo) => !todo.completed);
-    itemsLeft.textContent = `${uncompletedTodos?.length} item${uncompletedTodos?.length !== 1 ? "s" : ""} left`;
+    itemsLeft.textContent = `${uncompletedTodos.length} item${uncompletedTodos.length !== 1 ? "s" : ""} left`;
 }
 
 function checkEmptyState() {
     const filteredTodos = filterTodos(currentFilter);
-    if(filteredTodos?.length === 0)
+    if(filteredTodos.length === 0)
         emptyState.classList.remove("hidden");
     else
         emptyState.classList.add("hidden");
@@ -182,6 +182,7 @@ function setDate() {
 
 window.addEventListener("DOMContentLoaded", () => {
     loadTodos();
+    checkEmptyState();
     updateItemsCount();
     setDate();
 })
