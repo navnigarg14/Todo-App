@@ -170,6 +170,7 @@ function setActiveFilter(filter) {
     });
 
     renderTodos();
+    checkEmptyState();
 }
 
 
